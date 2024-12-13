@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Libre+Baskerville&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+    background-color: #faf4ed;
+    color: #575279;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 500px;
+    border: 2px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.links {
+    text-align: center;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links ul li {
+    text-align: center;
+}
+
+.links ul li a {
+    margin: .25rem;
+    padding: 10px;
+    background-color: #f2e9e1;
+    max-width: 300px;
+    display: inline-block;
+    text-decoration: none;
+    color: #b4637a;
+    transition: background-color 250ms;
+}
+
+.links ul li a:hover{
+    background-color: #dfdad9;
+    transition: background-color 250ms;
+}
+
+.ingredients ul {
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: circle;
+    color: #797593;
+  }
+
+  .steps ol {
+    text-align: center;
+    list-style-position: inside;
+    color: #797593;
+  }
+
+  .intro {
+    color: #797593;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 2rem;
+}
