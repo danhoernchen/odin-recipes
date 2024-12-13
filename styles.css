@@ -26,7 +26,7 @@ h2 {
     font-family: 'Fjalla One', sans-serif;
 }
 
-.links {
+.links, .back {
     text-align: center;
 }
 
@@ -38,7 +38,7 @@ h2 {
     text-align: center;
 }
 
-.links ul li a {
+.links ul li a, .back a {
     margin: .25rem;
     padding: 10px;
     background-color: #f2e9e1;
@@ -49,7 +49,7 @@ h2 {
     transition: background-color 250ms;
 }
 
-.links ul li a:hover{
+.links ul li a:hover, .back a:hover{
     background-color: #dfdad9;
     transition: background-color 250ms;
 }
@@ -74,3 +74,4 @@ h2 {
     margin: auto;
     margin-top: 2rem;
 }
+
